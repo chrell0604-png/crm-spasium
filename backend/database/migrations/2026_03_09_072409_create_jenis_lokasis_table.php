@@ -8,16 +8,15 @@ return new class extends Migration
 {
     public function up(): void
     {
-        Schema::create('cancel_reasons', function (Blueprint $table) {
+        Schema::create('jenis_lokasis', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('company_id')->constrained()->onDelete('cascade');
-            $table->string('reason');
+            $table->string('nama');
             $table->timestamps();
         });
     }
 
     public function down(): void
     {
-        Schema::dropIfExists('cancel_reasons');
+        Schema::dropIfExists('jenis_lokasis');
     }
 };
