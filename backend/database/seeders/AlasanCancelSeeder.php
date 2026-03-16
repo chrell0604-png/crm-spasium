@@ -11,11 +11,12 @@ class AlasanCancelSeeder extends Seeder
     {
         $data = [
             ['nama' => 'Budget'],
-            ['nama' => 'Timeline'],
-            ['nama' => 'Berubah Pikiran'],
-            ['nama' => 'Tidak relevan dengan Spasium'],
-            ['nama' => 'Baru wacana saja (belum jelas)'],
+            ['nama' => 'Taste'],
             ['nama' => 'Kurang Jelas & Tidak Dapat Dihubungi'],
+            ['nama' => 'Klien berubah pikiran'],
+            ['nama' => 'Baru wacana saja (belum jelas)'],
+            ['nama' => 'Tidak relevan dengan Spasium'],
+            ['nama' => 'Timeline'],
             ['nama' => 'Lainnya'],
         ];
 

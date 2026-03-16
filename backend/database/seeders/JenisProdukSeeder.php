@@ -10,7 +10,7 @@ class JenisProdukSeeder extends Seeder
     public function run(): void
     {
         $data = [
-            ['nama' => 'Artprints', 'kategori' => 'Artwork'],
+            ['nama' => 'Artprints', 'kategori' => 'Artprints'],
             ['nama' => 'Patung Dinding', 'kategori' => 'Patung'],
             ['nama' => 'Patung Meja', 'kategori' => 'Patung'],
             ['nama' => 'Patung Lantai', 'kategori' => 'Patung'],
@@ -18,7 +18,7 @@ class JenisProdukSeeder extends Seeder
             ['nama' => 'Lampu', 'kategori' => 'Lampu'],
             ['nama' => 'Cermin', 'kategori' => 'Cermin'],
             ['nama' => 'Partisi', 'kategori' => 'Partisi'],
-            ['nama' => 'Gagang Pintu', 'kategori' => 'Aksesoris'],
+            ['nama' => 'Gagang Pintu', 'kategori' => 'Gagang Pintu'],
             ['nama' => 'Lainnya', 'kategori' => 'Lainnya'],
         ];
 

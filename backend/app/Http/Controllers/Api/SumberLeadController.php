@@ -17,8 +17,13 @@ class SumberLeadController extends Controller
             ['id' => 1, 'nama' => 'Online Canvassing', 'kategori' => 'Aktif'],
             ['id' => 2, 'nama' => 'Door to Door', 'kategori' => 'Aktif'],
             ['id' => 3, 'nama' => 'Event', 'kategori' => 'Aktif'],
-            ['id' => 4, 'nama' => 'Website', 'kategori' => 'Pasif'],
-            ['id' => 5, 'nama' => 'IG Ads', 'kategori' => 'Iklan'],
+            ['id' => 4, 'nama' => 'Referral dr Aktif', 'kategori' => 'Aktif'],
+            ['id' => 5, 'nama' => 'Website', 'kategori' => 'Pasif'],
+            ['id' => 6, 'nama' => 'Instagram', 'kategori' => 'Pasif'],
+            ['id' => 7, 'nama' => 'Referral dr Pasif ', 'kategori' => 'Pasif'],  
+            ['id' => 8, 'nama' => ' Instagram Ads', 'kategori' => 'Iklan'],
+            ['id' => 9, 'nama' => ' Google Ads ', 'kategori' => 'Iklan'],    
+
         ];
 
         // Mengembalikan data dalam bentuk JSON
